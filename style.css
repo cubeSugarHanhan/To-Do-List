@@ -1,0 +1,62 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+	background-color: #cde6c7;
+	display: flex;
+	justify-content: center;
+}
+
+#app {
+	width: 34rem;
+	padding: 0 1.75rem;
+}
+
+.titleColor {
+	color: #130c0e;
+}
+
+#toDo_matter {
+	margin-bottom: 4.29rem;
+}
+
+.littleTitle {
+	font-size: 2.4rem;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	word-break: break-all;
+	margin-bottom: 1rem;
+}
+
+.dot {
+	margin-right: 0.8rem;
+}
+
+#addMatter {
+	margin-bottom: 4.29rem;
+}
+
+#addMatter input {
+	width: 23rem;
+	height: 3.9rem;
+	padding: 0 1.3rem;
+	border: none;
+	border-radius: 10rem 0 0 10rem;
+	float: left;
+	outline: none;
+}
+
+#addMatter button {
+	height: 3.9rem;
+	padding: 0 1.3rem;
+	border: none;
+	border-radius: 0 10rem 10rem 0;
+}
