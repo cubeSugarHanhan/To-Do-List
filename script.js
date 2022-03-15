@@ -39,7 +39,9 @@ var app = new Vue({
 	},
 
 	mounted: function() {
-		this.toDo_matter = JSON.parse(window.localStorage.getItem("toDo_matter"));
-		this.done_matter = JSON.parse(window.localStorage.getItem('done_matter'));
+		if (window.localStorage.getItem("toDo_matter") !== null && window.localStorage.getItem('done_matter') !== null) {
+			this.toDo_matter = JSON.parse(window.localStorage.getItem("toDo_matter"));
+			this.done_matter = JSON.parse(window.localStorage.getItem('done_matter'));
+		}
     }
 })
