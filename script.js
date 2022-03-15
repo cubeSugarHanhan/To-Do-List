@@ -17,8 +17,7 @@ var app = new Vue({
 
 		move_matter: function(index) {
 			this.done_matter.push(this.toDo_matter[index]);
-			this.delete_matter();
-			this.saveData();
+			this.delete_matter(index);
 		},
 
 		delete_matter: function(index) {
@@ -29,6 +28,11 @@ var app = new Vue({
 		recovery_matter: function(index) {
 			this.toDo_matter.push(this.done_matter[index]);
 			this.done_matter.splice(index, 1);
+			this.saveData();
+		},
+
+		delete_doneMatter: function() {
+			this.done_matter = [];
 			this.saveData();
 		},
 
