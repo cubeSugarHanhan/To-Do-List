@@ -60,3 +60,13 @@ li {
 	border: none;
 	border-radius: 0 10rem 10rem 0;
 }
+
+#done_matter {
+	margin-bottom: 4.29rem;
+}
+
+#deleteDone_button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
