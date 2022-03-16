@@ -42,6 +42,7 @@ ul {
 }
 
 li {
+	font-size: 1.7rem;
 	list-style: none;
 	word-break: break-all;
 	margin-bottom: 1rem;
